@@ -11,15 +11,15 @@ hero_height: is-fullwidth
 
 #### Tenemos tres procesos diferenciados y complementarios
 
-    * Orden de trabajo
-    * Parte de trabajo 
-    * Viajes
+  * Orden de trabajo
+  * Parte de trabajo 
+  * Viajes
 
 #### **Orden de trabajo**
 
 ###### La orden de trabajo se obtiene de una aplicación externa mediante una archivo XML que tiene la siguiente estructura
 
-'''      
+```      
         <Transporte>
         <Cliente>
             <Nombre>María García</Nombre> <!-- [45C] -->
@@ -47,7 +47,7 @@ hero_height: is-fullwidth
             <HoraDescarga>14:00</HoraDescarga> <!-- [12C] -->
         </Destino>
         </Transporte>
-'''
+``` 
 
 EL programa comprueba los datos que aparecen en el documento XML si el cliente de la orden no existe, el departamento de transporte recibirá un correo para advertir de la incidencia, y la orden no se procesará.
 
