@@ -1,0 +1,20 @@
+- name: Descripción
+  dropdown:
+    - name: Introducción
+      link: /docs/descripcioncorta
+    - name: Desarrollo
+      link: /docs/descripcioncompleta
+- name: Documentación
+  dropdown:
+    - name: Estructura
+      link: /docs/estructura
+    - name: Procesado orden XML
+      link: /docs/procesoxml
+    - name: Creación parte de trabajo
+      link: /docs/partetrabajo
+    - name: Esquema relacional
+      link: /docs/esquemarelacionalbd
+    - name: Diseño relacional
+      link: /docs/disenorelacionalbd
+- name: Acerca de
+  link: /about
