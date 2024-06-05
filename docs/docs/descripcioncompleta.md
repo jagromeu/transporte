@@ -9,18 +9,17 @@ hero_height: is-fullwidth
 
 >La aplicación tiene que gestionar todos los datos necesarios para llevar a buen termino un proceso de recogida y transporte de mercancias de un punto **A** a un punto **B** registrando todos los documentos necesarios para la toma de decisiones de cada departamento de la empresa y para que el conductor pueda en un momento dado consultar los datos imprescindibles para poder realizar su trabajo correctamente.
 
-#### Tenemos tres procesos diferenciados y complementarios:
+#### Tenemos tres procesos diferenciados y complementarios
 
-    . Orden de trabajo
-    . Parte de trabajo 
-    . Viajes
-
+    * Orden de trabajo
+    * Parte de trabajo 
+    * Viajes
 
 #### **Orden de trabajo**
 
-###### La orden de trabajo se obtiene de una aplicación externa mediante una archivo XML que tiene la siguiente estructura:
+###### La orden de trabajo se obtiene de una aplicación externa mediante una archivo XML que tiene la siguiente estructura
 
-           
+'''      
         <Transporte>
         <Cliente>
             <Nombre>María García</Nombre> <!-- [45C] -->
@@ -48,6 +47,7 @@ hero_height: is-fullwidth
             <HoraDescarga>14:00</HoraDescarga> <!-- [12C] -->
         </Destino>
         </Transporte>
+'''
 
 EL programa comprueba los datos que aparecen en el documento XML si el cliente de la orden no existe, el departamento de transporte recibirá un correo para advertir de la incidencia, y la orden no se procesará.
 
